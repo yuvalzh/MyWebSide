@@ -1,77 +1,78 @@
 #menu
 {
 	position: fixed;
-    z-index: 1;
-    font-size: 17px;
-    padding: 12px;
-    letter-spacing: 1.5px;
-    font-family: Segoe UI;
+	background: white;
+	z-index: 1;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 2.5px;
+    font-family: Bradley Hand ITC ;
 	width: 100%;
-	height: 29px;
+	height: 35px;
 	color:white!important;background-color:white!important;
 	overflow:hidden;
 	white-space:normal;
-	position:static;
+	
+	
 }
 body{
     background: url(background.jpg) ;
 	background-attachment: fixed;
-    margin: 20px auto;	
+    margin: 20px auto;
+	
 }
 .menubar{
 	border:none;
-	padding:12px;
+	padding:15px;
 	vertical-align:middle;
-	overflow:hidden;text-decoration:none;
-	background-color:white;text-align:center;cursor:pointer;
+	overflow:hidden;
+	text-decoration:none;
+	background-color:white;
+	text-align:center;
+	cursor:pointer;
 	white-space:nowrap;
 	outline:0;
 	color:black;
 	-webkit-touch-callout:none;
 	-webkit-user-select:none;
 	-moz-user-select:none;
-	white-space:normal;
 	width:100%;
 	white-space:normal;
-	float:none;
+	float:Bradley Hand ITC;
 }
-.menubar:hover{color:white!important;background-color:pink!important}
+.menubar:hover{color:white!important;background-color:black !important}
 
 .menubar:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
-.logo{
-	top: 4px;
-	left: 90%;
-	position: fixed;
-	background-image: white;
-	background-color:white;
-}
 .mySlides{
 	
 	position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
 }
 
-article{
-	text-shadow:5px 5px 5px gray;
+section{
+	text-shadow:2px 2px 2px gray;
 	background-position:center;
 	text-align: center;
 	font-size: 36px;
-	font-family:Segoe UI,Bradley Hand ITC;
-	width: 100%;
+	font-family:'Original Surfer', cursive;
+	background-color: rgba(255, 255, 255, 0.6);
+	position: relative;
+	left: 15%;
+	width: 70%;
+	height: 100%;
 }
 p{
 	text-shadow:1px 1px 1px gray;
 	text-align: center;
 	font-weight:bold;
-	font-size: 24px;
+	font-size: 18px;
 	font-family:Bradley Hand ITC;
-	
 }
 li{
-	font-size: 24px;
+	font-size: 16px;
 	font-family:Bradley Hand ITC;
-	font-weight:bold;
 	text-shadow:1px 1px 1px gray;
 	text-align: left;
+	float: left
 }
 nav
 {
@@ -84,29 +85,21 @@ aside
 {
 	position: absolute;
 	left: 75%;
-	width: 25%;
+	width: 40%;
 	height: 90%;
-}
-section
-{
-	background-color: rgba(255, 255, 255, 0.7);
-	position: relative;
-	left: 25%;
-	width: 50%;
-	height: 100%;
 }
 input{
 	width: 40%;
 	height: 20%;
 }
 .button{
-	background-color: pink;
+	background-color: white;
 	color: black;
     border: 2px solid black;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-white;
     font-size: 16px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.	4s; /* Safari */
@@ -118,8 +111,8 @@ input{
 	
 }
 .button:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 	border: 2px solid black;
 }
 .w3-display-container{position:relative}
